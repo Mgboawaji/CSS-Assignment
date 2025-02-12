@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+   background-color: gray;
+}
+.novus-container{
+    width: 1024px;
+    height: 1000px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    margin-block: 10%;
+    border-radius: 15px;
+    overflow: auto;
+    background-color: white;
+    .tag{
+        width: 300px;
+        height: 50px;
+        background-color:khaki;
+        margin-block: 1%;
+        position: absolute;
+        margin-inline: -1%;
+        justify-items: center;
+        align-content:space-around ;
+        border-radius: 5px 30px 30px 5px;
+    }
+    .novus-content{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+h1 span{
+    font-size: 30px; color: gray;
+}
+#msg{
+    width: 90%;
+    height: 10px;
+    font-size: 40px;
+    margin: 0 auto;
+    margin-block: 5% ;
+}
+
+embed{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1560px) {
+    .novus-container{
+        width: 520px;
+        height: 500px;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        margin-block: 10%;
+        border-radius: 15px;
+        overflow: auto;
+        background-color: white;
+        .tag{
+            width: 200px;
+            height: 35px;
+            background-color:khaki;
+            margin-block: 1%;
+            position: absolute;
+            margin-inline: -1%;
+            justify-items: center;
+            align-content:space-around ;
+            border-radius: 5px 30px 30px 5px;
+            font-size: small;
+        }
+        .novus-content{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+    h1 span{
+        font-size: 25px; color: gray;
+    }
+    #msg{
+        width: 90%;
+        height: 10px;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-block: 5% ;
+    }
+    
+    embed{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .novus-container{
+        width: 220px;
+        height: 230px;
+        /* border: 1px solid red; */
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        margin-block: 10%;
+        border-radius: 15px;
+        overflow: auto;
+        background-color: white;
+        .tag{
+            width: 100px;
+            height: 15px;
+            background-color:khaki;
+            margin-block: 1%;
+            position: absolute;
+            margin-inline: -3%;
+            justify-items: center;
+            align-content:space-around ;
+            border-radius: 5px 30px 30px 5px;
+            font-size: 6px;
+        }
+        .novus-content{
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
+    #msg{
+        width: 90%;
+        height: 10px;
+        font-size: 10px;
+        margin: 0 auto;
+        margin-block: 5% ;
+    }
+    
+    embed{
+        max-width: 100%;
+    }
+    h1 span{
+        font-size: small;
+        /* background-color: blue; */
+    }
+}

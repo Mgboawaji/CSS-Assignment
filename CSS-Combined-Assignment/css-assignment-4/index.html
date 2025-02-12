@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>CSS ASSIGNEMT 4</title>
+        <link rel="stylesheet" href="ass4.css">
+        <!-- <link rel="stylesheet" href="styles.css"> -->
+    </head>
+    <body class="ass4-bg">
+        <div class="media-status-bar" role="combobox" id="m-s-b">
+            <div role="alertdialog" id="time" >
+                <span style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: lighter;">9:41</span>
+            </div>
+            <div id="bar-container" >
+                <div id="bar-container-inner">
+                    <div role="alertdialog" id="network">
+                        <div class="pole-1" id="pole-1"></div>
+                        <div class="pole-2" id="pole-2"></div>
+                        <div class="pole-3" id="pole-3"></div>
+                        <div class="pole-4" id="pole-4"></div>
+                    </div>
+                </div>
+                <div id="bar-container-inner">
+                    <div role="alertdialog" id="wifi">
+                        <div id="wifi-logo">
+                            
+                        </div>
+                        <div id="wifi-logo1">
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="bar-container-inner">
+                    <div role="alertdialog" id="battery">
+                        <div class="outter-layer">
+                            <div class="inner-black">
+                                <div class="tip">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="group">
+            <div class="Group9">
+                <div class="logo">
+                    <div class="v1"></div>
+                    <div class="v3"></div>
+                </div>
+                <div class="logo2">
+                    <div class="v2"></div>
+                    <div class="v4"></div>
+                </div>
+            </div>
+            <h1 id="gr-h1">For individuals</h1>
+            <p id="gr-p">Start benefiting from the wellness experience. For companies looking on increacing productivity, and improving wellness</p>
+            <p id="gr-p-vis">Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.</p>
+        </div>
+        <div class="fm-bg">
+            <form action="" method="post">
+                <div class="form-control">
+                    <div id="label-container">
+                        <label for="first-name">First Name  </label><br>
+                        <input type="text" name="first-name" placeholder="Tolu" id="first-name" class="l-box" autocomplete="off" autofocus required>
+                        
+                    </div>
+                    <div id="label-container">
+                        <label for="last-name">Last Name</label><br>
+                        <input type="text" name="last-name" placeholder="Last name" id="last-name" class="l-box" required autofocus>
+                        
+                        
+                    </div>
+                    <!-- <p id="no-caption"></p> -->
+                    <div id="label-container">
+                        <label for="gender">Gender</label><br>
+                        <input list="genders" name="gender" placeholder="Select Gender" id="gender" class="l-box" required>
+                        <datalist id="genders">
+                            <option value="Male"></option>
+                            <option value="Female"></option>
+                        
+                        </datalist>
+                     
+                    
+                    </div>
+                    <div id="label-container">
+                        <label for="DOB">Date of Birth </label><br>
+                        <input type="date" name="date-of-birth" class="l-box" id="DOB" placeholder="Enter date of birth" required>
+                       
+                    
+                    </div>
+                    <div id="label-container">
+                        <label for="weight">Weight (KG)</label><br>
+                        <input type="text" placeholder="Enter Weight" class="l-box" id="weight" autofocus>
+                       
+                        
+                    </div>
+                    <div id="label-container">
+                        <label for="Height">Height (CM)</label><br>
+                        <input type="text" placeholder="Enter Height" id="Height" class="l-box" >
+                      
+                    
+                    </div>
+                </div>
+                <div id="label-container2">
+                    <label for="Activity-level">Activity Level </label><br>
+                    <select name="Activity-level" id="Activity-level" aria-placeholder="Select Activity">
+                        <!-- <input type="text" placeholder="Select Activity"  id="al"> -->
+                        <option value="Select Activity">Select Activity</option>
+                    </select>
+                    
+                    
+                </div>
+                <div id="label-container3">
+                    <label for="password">Password</label> <br>
+                    <input type="text" id="password" name="password" required>
+                    
+                    
+                </div>
+                <button id="ass4-button">Register</button>
+                <p id="fm-fter">By clicking the Register, you agree to our <span style="color: rgb(79, 155, 129); font-weight: bolder; text-decoration: underline;">Terms of Use</span> and <span style="color: rgb(79, 155, 129); font-weight: bolder; text-decoration: underline;">Privacy Policy</span></p>
+            </form>
+
+        </div>
+    </body>
+
+</html>
